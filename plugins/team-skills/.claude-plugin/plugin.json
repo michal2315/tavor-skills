@@ -1,0 +1,5 @@
+{
+  "name": "team-skills",
+  "version": "0.1.0",
+  "description": "Team workflows: new feature, scaffolding, pre-MR review, debugging, running locally, writing tests."
+}

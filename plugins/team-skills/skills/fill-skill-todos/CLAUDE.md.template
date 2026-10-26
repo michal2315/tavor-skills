@@ -1,0 +1,106 @@
+# <PROJECT NAME>
+
+<!--
+Copy this file to the root of EACH project as CLAUDE.md and fill it in.
+The team skills (new-feature, scaffold, pre-mr, debug, run-local, write-tests)
+read the sections below by name, so keep the headings exactly as they are.
+Search for "TODO(team)" to find everything that still needs filling.
+Tip: run /fill-skill-todos inside the project and Claude will draft most of it from the code.
+-->
+
+## Overview
+
+TODO(team): 2-4 sentences. What does this project do, who uses it, and what are the main parts
+(e.g. "Next.js frontend in /web, NestJS API in /api, Postgres, Redis queue for emails").
+
+## Stack
+
+TODO(team): languages, frameworks + major versions, DB, ORM, test frameworks, package manager.
+
+## Commands
+
+Use these exact commands. Do not guess others.
+
+| Purpose              | Command |
+|----------------------|---------|
+| Install deps         | TODO(team) |
+| Run dev              | TODO(team) |
+| Lint                 | TODO(team) |
+| Lint + autofix       | TODO(team) |
+| Typecheck            | TODO(team) |
+| All tests            | TODO(team) |
+| Single test file     | TODO(team) e.g. `npm test -- path/to/file.spec.ts` |
+| Build                | TODO(team) |
+| Create migration     | TODO(team) |
+| Run migrations       | TODO(team) |
+| Seed DB              | TODO(team) |
+
+## Git & MR
+
+- Base branch: TODO(team) (e.g. `develop`)
+- Branch naming: TODO(team) (e.g. `feature/PROJ-123-short-name`)
+- Commit format: TODO(team) (e.g. `PROJ-123: short description`)
+- Ticket system: TODO(team) (e.g. Jira project key `PROJ`)
+
+## Run locally
+
+TODO(team): numbered steps from a fresh clone to a running app.
+1. Prerequisites (Node version, Docker, etc.)
+2. Env vars: where they come from (copy `.env.example`? ask someone? vault?). NEVER put real secrets in this file.
+3. Start dependencies (e.g. `docker compose up -d db redis`)
+4. Migrate + seed
+5. Start the app, URL to open, test login user (seed user, not a real person)
+
+### Common setup errors
+
+| Symptom / error message | Cause | Fix |
+|-------------------------|-------|-----|
+| TODO(team) | | |
+
+## Conventions
+
+TODO(team): the rules a new developer would get wrong. Examples:
+- Where business logic lives (services, not controllers)
+- How validation is done (DTO + class-validator / zod schema)
+- How errors are thrown and returned to the client
+- How the frontend fetches data (react-query hooks in /hooks/api, never fetch in components)
+- Naming of files, components, DB tables
+- Auth: how a route is protected, how permissions are checked
+
+## Golden examples
+
+Copy these patterns when building something new. Paths are relative to the repo root.
+
+| Kind               | Example to copy |
+|--------------------|-----------------|
+| API endpoint       | TODO(team) |
+| Frontend page      | TODO(team) |
+| Form               | TODO(team) |
+| Component          | TODO(team) |
+| DB migration       | TODO(team) |
+| Unit test          | TODO(team) |
+| Integration/API test | TODO(team) |
+| E2E test           | TODO(team) or "none" |
+
+## Do not copy
+
+TODO(team): legacy or messy areas Claude must NOT use as an example, and why.
+e.g. `/src/legacy/**` (old pattern, being migrated), `OrdersController` (logic in controller).
+
+## Do not touch without asking
+
+TODO(team): files/areas that need a senior to approve changes.
+e.g. auth middleware, payment code, applied migrations, CI config, shared infra.
+
+## Logs & debugging
+
+TODO(team): where to look when something breaks.
+- Local backend logs: TODO(team)
+- Local frontend: browser console / network tab
+- Staging/prod errors: TODO(team) (e.g. Sentry project name, Kibana index)
+- Useful debug flags/env vars: TODO(team)
+
+## Known traps
+
+TODO(team): things that bite people repeatedly in this project.
+e.g. "After changing the Prisma schema, run `npx prisma generate` or types are stale."
