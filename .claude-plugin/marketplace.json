@@ -7,7 +7,7 @@
     {
       "name": "team-skills",
       "source": "./plugins/team-skills",
-      "description": "Team workflows: new feature, scaffolding, pre-MR review, debugging, running locally, writing tests."
+      "description": "Team workflows: new feature, scaffolding, pre-MR review, debugging, running locally, writing tests, adding tracing."
     }
   ]
 }

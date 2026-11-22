@@ -11,6 +11,7 @@ conventions without you having to know exactly what to ask.
 | `debug` | Reproduce → root cause → minimal fix → regression test → explanation | paste an error / "X is broken" |
 | `run-local` | Gets a project running locally and fixes setup errors | "how do I run this?" / "can't connect to db" |
 | `write-tests` | Meaningful tests in the project's style, checked to really catch bugs | "add tests for OrderService" |
+| `add-tracing` | Connects a project to Elastic APM with tavor-trace: survey → plan → **your approval** → wire server + client → verify → env vars to set | "connect this app to trace" |
 | `fill-skill-todos` | (maintainers) Fills the TODOs in a project's CLAUDE.md from the code | `/team-skills:fill-skill-todos` |
 
 Skills trigger by themselves from what you type. You can also call one directly, e.g.
